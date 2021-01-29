@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<!--
+	Greatness by FreeHTML5.co
+	Twitter: http://twitter.com/fh5co
+	URL: http://FreeHTML5.co
+-->
+{% extends 'base/main.html' %}
+{% load static%}
+{% block content %}
+<html>
+	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url({% static 'base/images/img_bg_4.jpg' %});">
+		<div class="overlay"></div>
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h2>Neung; Pornpavee seri-umnuoy; Game developer & Web developer & artist</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div id="gtco-features">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4">
+					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+						<span class="icon">
+							<i class="icon-game-controller"></i>
+						</span>
+						<h3>Game developer</h3>
+						<p>Unity game developer</p>
+						<p><a href="{% url 'experience' %}#gameDev" class="btn btn-primary btn-outline">Learn More</a></p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+						<span class="icon">
+							<i class="icon-browser"></i>
+						</span>
+						<h3>Web developer</h3>
+						<p>Backend web developer</p>
+						<p><a href="{% url 'experience' %}#webDev" class="btn btn-primary btn-outline">Learn More</a></p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+						<span class="icon">
+							<i class="icon-brush"></i>
+						</span>
+						<h3>Artist</h3>
+						<p>Unity Shader artist & 2D artist & Pixel artist</p>
+						<p><a href="{% url 'experience' %}#artist" class="btn btn-primary btn-outline">Learn More</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="gtco-features-2">
+		<div class="gtco-container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h2>About Me</h2>
+					<p>Since high school, a couple of things that I
+						was passionate about and really enjoyed
+						doing are coding and illustrating. And I
+						truly believe, when these two go hand in
+						hand, amazing things will happen ;)</p>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-6">
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-check"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Programimg Languages</h3>
+							<p>C#, HLSL, Java, TypeScript, JavaScript, HTML, CSS, Python, C++</p>
+						</div>
+					</div>
+
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-check"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Frameworks</h3>
+							<p>React, ExpressJS, NodeJS, KnexJS, AntDesign, Swagger, Django, Bootstrap, Ajax</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-md-6">
+				
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-check"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Database</h3>
+							<p>Firebase Realtime Database, MySQL, PostgreSQL, MongoDB</p>
+						</div>
+					</div>
+
+					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
+						<span class="icon">
+							<i class="icon-check"></i>
+						</span>
+						<div class="feature-copy">
+							<h3>Tools</h3>
+							<p>GitHub, GitLab, Unity, SourceTree, CircleCI, Trello, Jira, Docker</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="gtco-services">
+		<div class="gtco-container">
+			
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h2>Academic background</h2>
+				</div>
+			</div>
+
+			<div class="row animate-box">	
+				<div class="gtco-tabs">
+					<div class="gtco-tab-content-wrap">
+							<div class="col-md-6">
+								<div class="icon icon-xlg">
+									<i class="icon-open-book"></i>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<h2>Software Engineer</h2>
+								<p>Bachelor of Engineering Program in Software and Knowledge Engineering (International Program) at Kasetsart University</p>
+								<p>Cumulative Grade Point Average (GPA) is 3.3</p>
+
+								<div class="row">
+									<div class="col-md-6">
+										<h2 class="uppercase">Chess Club</h2>
+										<p>Treasurer, 2018-2019</p>
+									</div>
+									<div class="col-md-6">
+										<h2 class="uppercase">Thailand University Games</h2>
+										<p>3 bronze medals (Chess)</p>
+									</div>
+								</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="gtco-features"></div>
+	</body>
+</html>
+
+{% endblock content %}
