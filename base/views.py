@@ -49,21 +49,9 @@ def index(request):
     sendMsg(request)
     return render(request, 'base/index.html')
 
-def profile(request):
-    sendMsg(request)
-    return render(request, 'base/profile.html')
-
-def about(request):
-    sendMsg(request)
-    return render(request, 'base/about.html')
-
 def experience(request):
     sendMsg(request)
     return render(request, 'base/experience.html')
-
-def posts(request):
-    sendMsg(request)
-    return render(request, 'base/posts.html')
 
 def contact(request):
     sendMsg(request)
