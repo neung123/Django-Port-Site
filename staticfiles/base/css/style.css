@@ -735,6 +735,7 @@ form label {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
 #gtco-testimonial .testimony-slide blockquote {
   border: none;
   margin: 30px auto;
@@ -1394,3 +1395,17 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.img-container {
+  text-align: center;
+  display: block;
+}
+
+.img-round {
+  overflow: hidden;
+  margin-bottom: 30px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+}

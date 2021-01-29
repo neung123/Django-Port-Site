@@ -50,14 +50,21 @@ def index(request):
     return render(request, 'base/index.html')
 
 def profile(request):
+    sendMsg(request)
     return render(request, 'base/profile.html')
 
 def about(request):
+    sendMsg(request)
     return render(request, 'base/about.html')
 
-def post(request):
+def experience(request):
     sendMsg(request)
-    return render(request, 'base/post.html')
+    return render(request, 'base/experience.html')
 
 def posts(request):
+    sendMsg(request)
     return render(request, 'base/posts.html')
+
+def contact(request):
+    sendMsg(request)
+    return render(request, 'base/contact.html')
